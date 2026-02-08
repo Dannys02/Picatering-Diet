@@ -39,15 +39,15 @@ menuBtn.addEventListener("click", () => {
 
 // Fungsi Pesan WA tetap sama...
 function pesanWA(produk) {
-    const noWA = "6281252323997";
+    const noWA = "62xxxxxxxxxxx";
     const pesan = encodeURIComponent(
-        `Halo Bu Ulfi, saya lihat website banyuwangi-catering.com dan tertarik pesan *${produk}*. Bisa minta daftar harganya?`
+        `Halo kak, saya lihat website banyuwangi-catering.com dan tertarik pesan *${produk}*. Bisa minta daftar harganya?`
     );
     window.location.href = `https://wa.me/${noWA}?text=${pesan}`;
 }
 
 function telusuriBanyak() {
-    const noWA = "6281252323997";
+    const noWA = "62xxxxxxxxxxx";
     const pesan = encodeURIComponent(
         `Halo, saya sudah lihat menu di website tapi ingin tanya pilihan menu lainnya untuk acara saya. Ada katalog lengkap atau menu paket terbaru?`
     );
@@ -55,9 +55,9 @@ function telusuriBanyak() {
 }
 
 function HubungiWa() {
-    const noWA = "6281252323997";
+    const noWA = "62xxxxxxxxxxx";
     const pesan = encodeURIComponent(
-        `Halo Bu Ulfi, saya mau tanya-tanya soal catering untuk kebutuhan acara saya. Bisa bantu kirimkan daftar menunya?`
+        `Halo kak, saya mau tanya-tanya soal catering untuk kebutuhan acara saya. Bisa bantu kirimkan daftar menunya?`
     );
     window.location.href = `https://wa.me/${noWA}?text=${pesan}`;
 }
